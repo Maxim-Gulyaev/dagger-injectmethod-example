@@ -1,6 +1,6 @@
 package android.maxim.daggerpracticewithinject.activity
 
-import android.maxim.daggerpracticewithinject.di.App
+import android.maxim.daggerpracticewithinject.app.App
 import android.maxim.daggerpracticewithinject.data.DatabaseHelper
 import android.maxim.daggerpracticewithinject.data.NetworkUtils
 import android.maxim.daggerpracticewithinject.R

@@ -1,6 +1,8 @@
-package android.maxim.daggerpracticewithinject.di
+package android.maxim.daggerpracticewithinject.app
 
 import android.app.Application
+import android.maxim.daggerpracticewithinject.di.AppComponent
+import android.maxim.daggerpracticewithinject.di.DaggerAppComponent
 
 class App: Application() {
 
@@ -10,5 +12,4 @@ class App: Application() {
         super.onCreate()
         appComponent = DaggerAppComponent.create()
     }
-
 }
