@@ -1,3 +1,5 @@
 package android.maxim.daggerpracticewithinject.data
 
-class NetworkUtils
+class NetworkUtils {
+    fun util() {}
+}

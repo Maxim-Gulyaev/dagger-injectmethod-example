@@ -21,5 +21,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         (application as App).appComponent.injectMainActivity(this)
+
+        databaseHelper.help()
+        networkUtils.util()
     }
 }

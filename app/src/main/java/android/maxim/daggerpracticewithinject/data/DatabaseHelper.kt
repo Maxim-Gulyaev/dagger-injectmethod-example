@@ -1,3 +1,5 @@
 package android.maxim.daggerpracticewithinject.data
 
-class DatabaseHelper
+class DatabaseHelper {
+    fun help() {}
+}
